@@ -2,6 +2,8 @@
 
 :root {
     --primary-color: #a855f7;
+    --dark-gray:#64748b;
+    --medium-lime:#84cc16;
 
 }
 
@@ -20,6 +22,8 @@ body {
     margin: auto;
 }
 
+/** link **/
+
 .link {
     text-decoration: none;
     padding: 0.5rem,1rem;
@@ -37,6 +41,7 @@ body {
     border:1px solid var(--primary-color);
 }
 
+/** list **/
 /** BEM naming convention in css **/
 
 .list-non-bullet{
@@ -76,4 +81,26 @@ body {
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/** header **/
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
 }
