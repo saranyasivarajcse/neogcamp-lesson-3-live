@@ -4,6 +4,7 @@
     --primary-color: #a855f7;
     --dark-gray:#64748b;
     --medium-lime:#84cc16;
+    --off-white:#9ca3af;
 
 }
 
@@ -103,4 +104,41 @@ body {
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+
+/** sections **/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+   
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem, 1rem;
+    text-align: center;
+    color:white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: ;
+}
+
+.footer .link{
+    color:white;
+
+}
+
+.footer ul{
+    padding-inline-start: 0px ;
 }
